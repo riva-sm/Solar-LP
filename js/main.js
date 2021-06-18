@@ -9,7 +9,7 @@ $(function () {
     $($(this).attr("href")).addClass("info-tabs__content--active");
   });
   // slick slider
-  $(".info-slider").slick({
+  $(".info-slider, .clients-slider").slick({
     fade: true,
     prevArrow: `
     <svg class="slick-left" width="41" height="8" viewBox="0 0 41 8" fill="none" xmlns="http://www.w3.org/2000/svg">
