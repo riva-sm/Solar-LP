@@ -5,7 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Document</title>
+  <title>Солнечная электростанция
+      с доходом от 1000 $ в месяц | SolarExe</title>
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/reset.css" />
@@ -392,7 +393,12 @@
       <div class="footer__top">
         <form class="footer__form">
           <h2 class="footer__title">ОСТАВИТЬ ЗАЯВКУ</h2>
-          <input type="text" class="footer__input" placeholder="Имя"><input type="tel" class="footer__input"
+          		<!-- Hidden Required Fields -->
+		<input type="hidden" name="project_name" value="solar">
+		<input type="hidden" name="admin_email" value="froizenciel@gmail.com">
+		<input type="hidden" name="form_subject" value="Form">
+		<!-- END Hidden Required Fields -->
+          <input type="text" class="footer__input" name="Имя" placeholder="Имя"><input type="tel" class="footer__input" name="Телефон"
             placeholder="Телефон">
           <button class="footer__form-btn button">
             <svg width="101" height="100" viewBox="0 0 101 100" fill="none" xmlns="http://www.w3.org/2000/svg">
